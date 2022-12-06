@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "DatePicker",
+    "slug": "DatePicker",
+    "version": "1.0",
+    "scheme": "myapp",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#14AE96"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": [
+          "message",
+          "readdle-spark",
+          "airmail",
+          "ms-outlook",
+          "googlegmail",
+          "inbox-gmail",
+          "ymail",
+          "superhuman",
+          "yandexmail",
+          "fastmail",
+          "protonmail"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#14AE96"
+      },
+      "package": "com.msruthala.DatePicker"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "react-native-health",
+      "react-native-email-link"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "510cbfbb-49ed-4a23-bd77-6149cd8d1a2e"
+      }
+    }
+  }
+}
